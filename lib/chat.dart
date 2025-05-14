@@ -51,7 +51,7 @@ class _ChatPageState extends State<ChatPage> {
         uri,
         headers: {
           "Content-Type": "application/json",
-          "Authorization": "Bearer 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", // الـ API Key المطلوب
+          "Authorization": "", // الـ API Key المطلوب
         },
         body: jsonEncode(request),
       );
